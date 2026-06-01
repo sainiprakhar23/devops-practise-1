@@ -72,7 +72,7 @@ pipeline {
 
                 docker run -d ^
                 --name %CONTAINER_NAME% ^
-                -p 8080:80 ^
+                -p 8081:80 ^
                 %DOCKER_USER%/%IMAGE_NAME%:%IMAGE_TAG%
                 '''
             }
